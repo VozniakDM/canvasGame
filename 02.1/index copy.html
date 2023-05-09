@@ -1,0 +1,57 @@
+<!-- НЕ АКТУАЛЬНИЙ КОД -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <section class="container">
+    <h1 class="title">Анкета користувача</h1>
+    <div class="user__information">
+      <h3 class="user__information--title">Інформація про себе</h3>
+      <div class="information__label">
+        <div class="label">
+          <label for="name" class="information__label--text">Ім'я</label>
+          <label for="surname" class="information__label--text">Прізвище</label>
+          <label for="age" class="information__label--text">Вік</label>
+          <label for="animal">Є домашні тварини</label>      
+        </div>        
+        <div class="input">
+          <input type="text" name="name" id="name" class="information__label--input">
+          <input type="text" name="surname" id="surname" class="information__label--input">
+          <input type="text" name="name" id="age" class="information__label--input">
+          <input type="checkbox" name="input_1" value="animal" id="animal">
+        </div>
+      </div>
+    </div>
+    <div class="user__information">
+      <h3 class="user__information--title">Інформація про місце роботи</h3>
+      <div class="information__label">
+        <div class="label">
+          <label for="company" class="information__label--text">Компанія</label>       
+          <label for="position" class="information__label--text">Посада</label>
+          <label for="experience" class="information__label--text">Стаж роботи</label>
+          <label for="homework">Робота з дому</label>
+        </div>
+        <div class="input">
+          <input type="text" name="company" id="company" class="information__label--input"> 
+          <input type="text" name="position" id="position" class="information__label--input">
+          <input type="text" name="experience" id="experience" class="information__label--input">
+          <input type="checkbox" name="input_2" value="homework" id="homework">
+        </div>
+      </div>
+    </div>
+    <div class="button">
+      <input type="submit" name="submit" value="Відправити">
+    </div>
+  </section>
+   
+
+  <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+}
+.movie__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+img {
+  border-radius: 10px;
+}
+.movieRatingBlock {
+  display: flex;
+  justify-content: flex-end;
+  
+}
+.movieRating {  
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 160px;
+  height: 30px;
+  background-color: aquamarine;
+}
